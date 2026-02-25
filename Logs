@@ -1,0 +1,51 @@
+Time
+#
+Log Message
+9.9s	1	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.9s	2	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.9s	3	0.00s - to python to disable frozen modules.
+9.9s	4	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.6s	5	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.6s	6	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.6s	7	0.00s - to python to disable frozen modules.
+10.6s	8	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+15.3s	9	<class 'pandas.core.frame.DataFrame'>
+15.3s	10	RangeIndex: 891 entries, 0 to 890
+15.3s	11	Data columns (total 12 columns):
+15.3s	12	 #   Column       Non-Null Count  Dtype  
+15.3s	13	---  ------       --------------  -----  
+15.3s	14	 0   PassengerId  891 non-null    int64  
+15.3s	15	 1   Survived     891 non-null    int64  
+15.3s	16	 2   Pclass       891 non-null    int64  
+15.3s	17	 3   Name         891 non-null    object 
+15.3s	18	 4   Sex          891 non-null    object 
+15.3s	19	 5   Age          714 non-null    float64
+15.3s	20	 6   SibSp        891 non-null    int64  
+15.3s	21	 7   Parch        891 non-null    int64  
+15.3s	22	 8   Ticket       891 non-null    object 
+15.3s	23	 9   Fare         891 non-null    float64
+15.3s	24	 10  Cabin        204 non-null    object 
+15.3s	25	 11  Embarked     889 non-null    object 
+15.3s	26	dtypes: float64(2), int64(5), object(5)
+15.3s	27	memory usage: 83.7+ KB
+20.8s	28	/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+20.8s	29	  cells[i][c] = re.sub('\\\\\|', '|', cell)
+21.0s	30	/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+21.0s	31	  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+21.7s	32	/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+21.7s	33	  warn(
+21.7s	34	[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+22.0s	35	[NbConvertApp] Writing 427816 bytes to __notebook__.ipynb
+24.6s	36	/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+24.6s	37	  warn(
+24.6s	38	[NbConvertApp] Converting notebook __notebook__.ipynb to html
+25.5s	39	[NbConvertApp] Support files will be in __results___files/
+25.5s	40	[NbConvertApp] Making directory __results___files
+25.5s	41	[NbConvertApp] Making directory __results___files
+25.5s	42	[NbConvertApp] Making directory __results___files
+25.5s	43	[NbConvertApp] Making directory __results___files
+25.5s	44	[NbConvertApp] Making directory __results___files
+25.5s	45	[NbConvertApp] Making directory __results___files
+25.5s	46	[NbConvertApp] Making directory __results___files
+25.5s	47	[NbConvertApp] Writing 327627 bytes to __results__.html
+
